@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+ion-icon {
+  font-size: 32px;
+}
+
+.sect1 {
+  background-repeat: none;
+  background: url("assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sect2 {
+  align-items: center;
+  justify-content: left;
+}
+
+.nav {
+  position: fixed;
+}
